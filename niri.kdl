@@ -1,0 +1,11 @@
+layout {
+    gaps 8
+    default-column-width { proportion 1.0; }
+}
+binds {
+    Mod+Q { close-window; }
+}
+
+hotkey-overlay { skip-at-startup; }
+
+output "winit" { scale 1.5; }
